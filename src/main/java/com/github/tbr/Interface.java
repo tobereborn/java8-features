@@ -2,9 +2,6 @@ package com.github.tbr;
 
 import java.util.function.Supplier;
 
-/**
- * Created by weizhen on 17-8-26.
- */
 public class Interface {
     public static void main(String[] args) {
         Defaultable defaultable = DefaultableFactory.create(DefaultableImpl::new);

@@ -15,5 +15,7 @@ public class Lambda {
         System.out.println(list);
         list.sort((e1, e2) -> e1.compareTo(e2));
         System.out.println(list);
+        Runnable run= ()->System.out.print("run");
+        run.run();
     }
 }
